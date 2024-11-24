@@ -1,0 +1,121 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:  Source Sans Pro ;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: white;
+}
+
+.body-black {
+    background-color: black;
+}
+
+.text-color {
+    color: black;
+}
+
+.text-color-black {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.a-light {
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.a-dark {
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.a-light:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.a-dark:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.contact-nav:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+    border: 1px solid black;
+}
+
+.contact-nav-black:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    border: 1px solid black;
+}
+
+.theme-setter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius:50% ;
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.nav-holder {
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    background-color: white;
+}
+
+.nav-holder-black {
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    background-color: black;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+}
+
+.nav-bar-black {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+}
+
+.intro-holder {
+    margin: 10px;
+}
