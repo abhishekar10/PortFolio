@@ -3,11 +3,13 @@ body = document.querySelector("#body");
 navHolder = document.querySelector("#navHolder");
 navBar = document.querySelector("#navBar");
 navBarTitles = document.getElementsByTagName("a");
-headingOne = document.querySelector("#text")
+headingOne = document.querySelectorAll("#text")
 themeButton.addEventListener("click",() => {
     if(navBarTitles[0].classList.contains("a-light")) {
-        headingOne.classList.add("text-color-black");
-        headingOne.classList.remove("text-color");
+        for(let i = 0; i <headingOne.length; i++) {
+            headingOne[i].classList.add("text-color-black");
+            headingOne[i].classList.remove("text-color");
+        }
         body.classList.add("body-black");
         body.classList.remove("body");
         navBar.classList.add("nav-bar-black");
@@ -18,9 +20,11 @@ themeButton.addEventListener("click",() => {
             navBarTitles[i].classList.add("a-dark");
             navBarTitles[i].classList.remove("a-light")
         }
-    } else {
-        headingOne.classList.remove("text-color-black");
-        headingOne.classList.add("text-color");
+    } else {        
+        for(let i = 0; i <headingOne.length; i++) {
+            headingOne[i].classList.remove("text-color-black");
+            headingOne[i].classList.add("text-color");
+        }
         body.classList.remove("body-black");
         body.classList.add("body");
         navBar.classList.remove("nav-bar-black");
