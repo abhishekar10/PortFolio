@@ -22,7 +22,7 @@
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
 .a-light {
@@ -76,6 +76,18 @@
     margin-left: 10px;
     border: 1px solid black;
     background-color: black;
+}
+
+.theme-setter-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius:50% ;
+    margin-left: 10px;
+    border: 1px solid white;
+    background-color: white;
 }
 
 .nav-holder {
